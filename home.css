@@ -1,0 +1,34 @@
+html {
+	background-color: black;
+	color: #00FF33;
+	text-align: center;
+	font-family: Courier New
+}
+
+img {
+	width: 400px;
+	height: 500px;
+}
+
+/* Chartist Styling */
+.ct-chart {
+	margin: auto;
+	width: 400px;
+	height: 225px;
+}
+
+.ct-series-a .ct-line,
+.ct-series-a .ct-point {
+	stroke: #00FF33;
+}
+
+.ct-series-a .ct-area {
+	stroke: #00FF33;
+	fill: #00FF33;
+}
+
+.ct-chart-line .ct-label {
+	color: #00FF33;
+	font-size: 12px;
+	font-family: Courier New;
+}
